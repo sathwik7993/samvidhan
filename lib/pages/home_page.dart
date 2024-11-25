@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sip_0_2/constitution_data.dart';
+import 'package:flutter_sip_0_2/pages/AboutConstitution.dart';
 import 'package:flutter_sip_0_2/pages/appendices.dart';
 import 'package:flutter_sip_0_2/pages/game_page.dart';
 import 'package:flutter_sip_0_2/pages/part_1.dart';
@@ -242,18 +243,32 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           _buildDrawerItem(
-            icon: Icons.home,
-            title: 'Home',
-            onTap: () => Navigator.pop(context),
-          ),
-          _buildDrawerItem(
-            icon: Icons.book,
-            title: 'About Constitution',
-            onTap: () {
-              Navigator.pop(context);
-              debugPrint('About Constitution pressed');
-            },
-          ),
+  icon: Icons.home,
+  title: 'Home',
+  onTap: () {
+    Navigator.pop(context); // Close the drawer
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(builder: (context) => const HomePage()),
+    );
+  },
+),
+
+         _buildDrawerItem(
+  icon: Icons.book,
+  title: 'About Constitution',
+  onTap: () {
+    Navigator.pop(context);  // Close the drawer
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => AboutConstitutionPage(),  // Navigate to About Constitution page
+      ),
+    );
+    debugPrint('About Constitution pressed');
+  },
+),
+
           _buildDrawerItem(
             icon: Icons.info,
             title: 'About Us',

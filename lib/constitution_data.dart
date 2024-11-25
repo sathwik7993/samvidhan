@@ -109,127 +109,237 @@ The Parliament of India can make laws about how people can become citizens and h
   ),
 
   // Part III - Fundamental Rights
+ 
   ConstitutionArticle(
     article: "Article 12",
-    description: "What is the State?",
+    description: "Definition of State.",
     part: "Part III",
     fullDetails: """
-Article 12: What is the State?
-In this part, "the State" means the Government of India, the governments of each state, and local authorities in India.
+This article defines what "State" means in the Constitution. It includes the government, Parliament, and the courts.
 """,
   ),
   ConstitutionArticle(
     article: "Article 13",
-    description: "Laws Must Follow Fundamental Rights",
+    description: "Laws inconsistent with or in derogation of the fundamental rights.",
     part: "Part III",
     fullDetails: """
-Article 13: Laws Must Follow Fundamental Rights
-1. Any law that goes against the rights mentioned in this Part will be considered invalid.
-2. The government cannot make laws that take away the rights given in this Part.
+This article says that if a law goes against the fundamental rights, that law will be considered invalid. Fundamental rights must be followed by everyone, including the government.
 """,
   ),
   ConstitutionArticle(
     article: "Article 14",
-    description: "Right to Equality",
+    description: "Equality before law.",
     part: "Part III",
     fullDetails: """
-Article 14: Right to Equality
-Everyone is equal before the law, which means the law treats everyone the same way.
+This article says that everyone is equal before the law. No one is above the law, and everyone has the same legal rights.
 """,
   ),
   ConstitutionArticle(
     article: "Article 15",
-    description: "No Discrimination",
+    description: "Prohibition of discrimination on grounds of religion, race, caste, sex, or place of birth.",
     part: "Part III",
     fullDetails: """
-Article 15: No Discrimination
-1. The government cannot treat any person unfairly based on religion, race, caste, sex, or where they were born.
-2. No one can be denied access to public places like shops and parks because of these reasons.
+This article ensures that no one can be treated unfairly based on their religion, race, caste, sex, or where they were born.
 """,
   ),
   ConstitutionArticle(
     article: "Article 16",
-    description: "Equality in Jobs",
+    description: "Equality of opportunity in matters of public employment.",
     part: "Part III",
     fullDetails: """
-Article 16: Equality in Jobs
-Everyone has the right to apply for any job or position in the government. No one can be treated unfairly in job matters based on religion, race, caste, or sex.
+This article says that everyone should have equal chances to get government jobs, and no one should be stopped from applying for a job based on their background.
 """,
   ),
   ConstitutionArticle(
     article: "Article 17",
-    description: "Abolishment of Untouchability",
+    description: "Abolition of Untouchability.",
     part: "Part III",
     fullDetails: """
-Article 17: Abolishment of Untouchability
-The practice of "Untouchability" is illegal. No one can be treated as inferior to others because of their caste.
+This article makes untouchability illegal in India. People can’t be treated unfairly because of their caste.
 """,
   ),
   ConstitutionArticle(
     article: "Article 18",
-    description: "No Titles",
+    description: "Abolition of titles.",
     part: "Part III",
     fullDetails: """
-Article 18: No Titles
-1. The government cannot give titles to people, except for military or academic honors.
-2. Citizens cannot accept any titles from foreign countries.
+This article says that titles like “Sir” or “Knight” cannot be given to people. No one can be given a special title by the government.
 """,
   ),
   ConstitutionArticle(
     article: "Article 19",
-    description: "Right to Freedom",
+    description: "Protection of certain rights regarding freedom of speech, etc.",
     part: "Part III",
     fullDetails: """
-Article 19: Right to Freedom
-Every citizen has the following freedoms:
-1. Freedom of speech and expression.
-2. The right to gather peacefully without weapons.
-3. The right to form groups or unions.
-4. The right to travel freely across the country.
-5. The right to live and settle anywhere in India.
-6. The right to work in any profession or start a business.
+This article gives people the freedom to speak their mind, assemble peacefully, and express their opinions. It also protects the right to work in any profession.
 """,
   ),
   ConstitutionArticle(
     article: "Article 20",
-    description: "Protection from Punishment",
+    description: "Protection in respect of conviction for offences.",
     part: "Part III",
     fullDetails: """
-Article 20: Protection from Punishment
-1. No one can be punished for something that was not against the law when they did it.
-2. No one can be punished twice for the same crime.
-3. No one has to be a witness against themselves.
+This article says that a person cannot be punished for a crime unless they have been found guilty in court. No one can be punished more than once for the same crime.
 """,
   ),
   ConstitutionArticle(
     article: "Article 21",
-    description: "Right to Life and Liberty",
+    description: "Protection of life and personal liberty.",
     part: "Part III",
     fullDetails: """
-Article 21: Right to Life and Liberty
-No one can be taken away from their life or freedom except by following the law.
+This article ensures that everyone has the right to live and be free. The government cannot take away someone’s life or freedom without a good reason.
 """,
   ),
   ConstitutionArticle(
     article: "Article 21A",
-    description: "Right to Education",
+    description: "Right to education.",
     part: "Part III",
     fullDetails: """
-Article 21A: Right to Education
-The State will provide free and compulsory education to all children from the age of six to fourteen years.
+This article says that every child between the ages of 6 and 14 has the right to free and compulsory education.
 """,
   ),
   ConstitutionArticle(
     article: "Article 22",
-    description: "Protection against Arrest",
+    description: "Protection against arrest and detention in certain cases.",
     part: "Part III",
     fullDetails: """
-Article 22: Protection against Arrest
-1. Anyone who is arrested must be told why they are being arrested.
-2. They have the right to see a lawyer.
-3. They must be presented before a magistrate within 24 hours of their arrest.
+This article ensures that no one can be arrested without being told why they are being arrested. It also protects people from being held in jail without a fair trial.
 """,
   ),
+  ConstitutionArticle(
+    article: "Article 23",
+    description: "Prohibition of traffic in human beings and forced labour.",
+    part: "Part III",
+    fullDetails: """
+This article makes it illegal to buy or sell people (human trafficking) or force anyone to work without paying them (forced labour).
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 24",
+    description: "Prohibition of employment of children in factories, etc.",
+    part: "Part III",
+    fullDetails: """
+This article says that children under 14 cannot be made to work in factories or other dangerous jobs.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 25",
+    description: "Freedom of conscience and free profession, practice, and propagation of religion.",
+    part: "Part III",
+    fullDetails: """
+This article gives everyone the freedom to believe in any religion and practice or spread their beliefs.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 26",
+    description: "Freedom to manage religious affairs.",
+    part: "Part III",
+    fullDetails: """
+This article gives religious groups the right to manage their own temples, mosques, churches, and other religious places.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 27",
+    description: "Freedom as to payment of taxes for promotion of any particular religion.",
+    part: "Part III",
+    fullDetails: """
+This article says that the government cannot make people pay taxes to support or promote any specific religion.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 28",
+    description: "Freedom as to attendance at religious instruction or religious worship in certain educational institutions.",
+    part: "Part III",
+    fullDetails: """
+This article ensures that people can choose whether or not they want to attend religious classes or prayers in schools and colleges.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 29",
+    description: "Protection of interests of minorities.",
+    part: "Part III",
+    fullDetails: """
+This article protects the rights of minorities (people who are different from the majority) and ensures they can keep their language, culture, and religion safe.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 30",
+    description: "Right of minorities to establish and administer educational institutions.",
+    part: "Part III",
+    fullDetails: """
+This article gives minorities the right to set up and run their own schools or colleges.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 31A",
+    description: "Saving of laws providing for acquisition of estates, etc.",
+    part: "Part III",
+    fullDetails: """
+This article ensures that laws related to the government taking land or property for public use are protected and can’t be easily challenged in court.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 31B",
+    description: "Validation of certain Acts and Regulations.",
+    part: "Part III",
+    fullDetails: """
+This article says that some old laws or actions that were taken by the government before the Constitution was made are valid, even if they go against the Constitution.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 31C",
+    description: "Saving of laws giving effect to certain directive principles.",
+    part: "Part III",
+    fullDetails: """
+This article ensures that laws made to help achieve important goals (like ending poverty or promoting education) are valid, even if they affect people’s rights.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 31D",
+    description: "Saving of laws in respect of anti-national activities.",
+    part: "Part III",
+    fullDetails: "This article was omitted and is no longer part of the Constitution.",
+  ),
+  ConstitutionArticle(
+    article: "Article 32",
+    description: "Remedies for enforcement of rights conferred by this Part.",
+    part: "Part III",
+    fullDetails: """
+This article gives people the right to go to the Supreme Court if their rights are not being respected. The court can help protect their rights.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 32A",
+    description: "Constitutional validity of State laws not to be considered in proceedings under article 32.",
+    part: "Part III",
+    fullDetails: "This article was omitted and is no longer part of the Constitution.",
+  ),
+  ConstitutionArticle(
+    article: "Article 33",
+    description: "Power of Parliament to modify the rights conferred by this Part in their application to Forces, etc.",
+    part: "Part III",
+    fullDetails: """
+This article gives Parliament the power to change or limit certain rights for the military, police, and other armed forces if needed.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 34",
+    description: "Restriction on rights conferred by this Part while martial law is in force in any area.",
+    part: "Part III",
+    fullDetails: """
+This article says that some rights can be limited during martial law, which is when the military controls the law instead of the regular government.
+""",
+  ),
+  ConstitutionArticle(
+    article: "Article 35",
+    description: "Legislation to give effect to the provisions of this Part.",
+    part: "Part III",
+    fullDetails: """
+This article allows Parliament to make laws to protect and enforce the fundamental rights listed in this part of the Constitution.
+""",
+  ),
+
+
 
   // Part IV - Directive Principles of State Policy
   ConstitutionArticle(
