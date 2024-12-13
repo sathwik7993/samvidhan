@@ -1,5 +1,6 @@
+// main.dart
 import 'package:flutter/material.dart';
-import 'pages/home_page.dart';
+import 'pages/login_screen.dart';  // Import LoginScreen
 
 void main() {
   runApp(const MainApp());
@@ -10,9 +11,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(), // Directly load the HomePage without login
+      home: LoginScreen(), // Start with LoginScreen
     );
   }
 }
